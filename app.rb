@@ -1,3 +1,6 @@
+require 'json'
+require 'job'
+
 class ActivePost < Sinatra::Base
   set :public => "public", :static => true
   configure :production, :development do
@@ -9,11 +12,13 @@ class ActivePost < Sinatra::Base
   end
 
   get '/api/likes' do
+    Resque.enqueue(LikesWorker)
 
     post = params[:post] || 1
     content_type :json
     {
-      likes: $redis.get("likes.count.#{post}") || 0
+      likes: ($redis.get("likes.count.#{post}") || 0).to_i
     }.to_json
   end
 end
+
