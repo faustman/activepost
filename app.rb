@@ -3,6 +3,7 @@ require 'job'
 
 class ActivePost < Sinatra::Base
   set :public => "public", :static => true
+  set :protection, :except => [:json_csrf]
   configure :production, :development do
     enable :logging
   end
