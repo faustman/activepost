@@ -1,0 +1,49 @@
+﻿glass.swf Movie Report
+-----------------------
+
+Metadata
+--------
+Bytes         Value
+----------    -----
+      1241    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/"> <xmp:CreatorTool>Adobe Flash Professional CS6 - build 481</xmp:CreatorTool> <xmp:CreateDate>2013-08-15T10:42:12+03:00</xmp:CreateDate> <xmp:MetadataDate>2013-08-16T12:12:21+03:00</xmp:MetadataDate> <xmp:ModifyDate>2013-08-16T12:12:21+03:00</xmp:ModifyDate> </rdf:Description> <rdf:Description rdf:about="" xmlns:dc="http://purl.org/dc/elements/1.1/"> <dc:format>application/x-shockwave-flash</dc:format> </rdf:Description> <rdf:Description rdf:about="" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#"> <xmpMM:InstanceID>xmp.iid:AFB232E71A206811822AEDBBE1201FA5</xmpMM:InstanceID> <xmpMM:DocumentID>xmp.did:AFB232E71A206811822AEDBBE1201FA5</xmpMM:DocumentID> <xmpMM:OriginalDocumentID>xmp.did:F77F117407206811822ADA8597C209D5</xmpMM:OriginalDocumentID> <xmpMM:DerivedFrom rdf:parseType="Resource"> <stRef:instanceID>xmp.iid:AEB232E71A206811822AEDBBE1201FA5</stRef:instanceID> <stRef:documentID>xmp.did:0880117407206811822AEDBBE1201FA5</stRef:documentID> <stRef:originalDocumentID>xmp.did:F77F117407206811822ADA8597C209D5</stRef:originalDocumentID> </xmpMM:DerivedFrom> </rdf:Description> </rdf:RDF> 
+
+Frame #    Frame Bytes    Total Bytes    Scene
+-------    -----------    -----------    -----
+      1         246928         246928    Scene 1 (AS 3.0 Classes Export Frame)
+
+Scene      Shape Bytes    Text Bytes    ActionScript Bytes
+-------    -----------    ----------    ------------------
+Scene 1              0           140                  2205
+
+Symbol             Shape Bytes    Text Bytes    ActionScript Bytes
+---------------    -----------    ----------    ------------------
+Glass Component              0             0                     0
+Merged Bitmap                0             0                     0
+TEXT                         0             0                     0
+
+Font Name     Bytes         Characters
+----------    ----------    ----------
+Skin&Bones         18314    .0123456789
+
+ActionScript Bytes    Location
+------------------    --------
+              2205    Scene 1:Frame 1
+
+Bitmap           Compressed    Original      Compression
+-------------    ----------    ----------    -----------
+bg.jpg                58961        633616    Imported JPEG=102
+glass1.png            19327        273840    JPEG Quality=80
+Merged Bitmap          8285         49300    JPEG Quality=80
+glass2.png            18816        255024    JPEG Quality=80
+glass3.png            17264        215648    JPEG Quality=80
+4                     15888        201584    JPEG Quality=80
+5                     15355        191952    JPEG Quality=80
+6                     14540        185072    JPEG Quality=80
+7                     13950        185072    JPEG Quality=80
+8                     13686        185072    JPEG Quality=80
+9                     13926        185072    JPEG Quality=80
+10                    14039        185072    JPEG Quality=80
+
+
+
+
