@@ -13,6 +13,10 @@ class ActivePost < Sinatra::Base
   end
 
   get '/api/likes' do
+    # Disabled cache
+    response.headers['Expires'] = "Mon, 26 Jul 1997 05:00:00 GMT"
+    response.headers['Cache-Control'] = "no-store, no-cache, must-revalidate"
+
     Resque.enqueue(LikesWorker)
 
     post = params[:post] || 1
